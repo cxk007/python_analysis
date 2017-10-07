@@ -106,3 +106,4 @@ venv.bak/
 # My Configurations:
 *.idea/
 *.csv
+*.png
