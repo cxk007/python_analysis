@@ -1,3 +1,4 @@
+# -*- coding=utf-8 -*-
 from random_walk import RandomWalk
 import matplotlib.pyplot as plt
 
