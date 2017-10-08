@@ -1,6 +1,7 @@
 # -*- coding=utf-8 -*-
 from pygal_maps_world.i18n import COUNTRIES
-
+"""
+根据指定的国家名字，返回两个字母的国别码，或者相反。"""
 
 def get_country_code(country_name):
     """
