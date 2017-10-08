@@ -51,7 +51,6 @@ my_config.truncate_label = 15
 my_config.show_y_guides = False
 my_config.width = 1000
 
-
 chart = pygal.Bar(my_config, style=my_style)
 chart.title = 'Most-Starred ruby Projects on GitHub'
 chart.x_labels = names
