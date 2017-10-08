@@ -37,8 +37,9 @@ print(len(cc_pops_1), len(cc_pops_2), len(cc_pops_3))
 
 
 # 设置pygal的样式
-wm_style = RS('#336699', base_style=LCS)
-wm = World(style=wm_style)
+# wm_style = RS('#336699', base_style=LCS)
+# wm = World(style=wm_style)
+wm = World()
 # 设置图表标题
 wm.title = 'World Populations in 2010, by Country'
 # wm.add('2010', cc_populations)
